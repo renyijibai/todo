@@ -1,0 +1,14 @@
+**/[Bb]in/
+**/[Oo]bj/
+.vs/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+**/backups/
+verification.txt
+/work/
+/artifacts/
+Thumbs.db
+.DS_Store

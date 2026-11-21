@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net48</TargetFramework><LangVersion>latest</LangVersion>
+    <UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable><ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>see you</AssemblyName><Version>1.4.0</Version><Product>see you</Product>
+    <PlatformTarget>x86</PlatformTarget><Prefer32Bit>true</Prefer32Bit><ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.5" />
+    <PackageReference Include="Fody" Version="6.9.3" PrivateAssets="All" />
+    <PackageReference Include="Costura.Fody" Version="6.0.0" PrivateAssets="All" />
+    <Reference Include="System.Drawing" /><Reference Include="System.Data" /><Reference Include="System.Runtime.Serialization" />
+    <EmbeddedResource Include="costura-win-x86\e_sqlite3.dll" />
+  </ItemGroup>
+</Project>
